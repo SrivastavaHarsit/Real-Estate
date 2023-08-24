@@ -1,0 +1,54 @@
+.f-container {
+    justify-content: space-between;
+    border-top: .5px solid rgba(0, 0, 0, 0.148)
+}
+
+.f-left {
+    gap: 1rem;
+}
+
+.logo-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    /* You can change the color to your preference */
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    /* Adding a hover effect */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logo-text:hover {
+    background-color: #333;
+    /* Background color on hover */
+    color: #fff;
+    /* Text color on hover */
+}
+
+.f-menu {
+    margin-top: 1.5rem;
+    margin-left: -1.0rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .f-container {
+        justify-content: center;
+    }
+
+    .f-container>div {
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .f-right {
+        justify-content: center;
+    }
+}
